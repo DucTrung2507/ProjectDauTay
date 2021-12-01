@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ativity.bookingActivity"
+    android:orientation="vertical"
+    android:background="@color/gray">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your city"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:fontFamily="@font/wendy_one"
+        />
+    <Spinner
+        android:id="@+id/cityspinner"
+        android:background="@drawable/spinner"
+        style="@style/ShapeAppearance.MaterialComponents.SmallComponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="District"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:fontFamily="@font/wendy_one"
+        />
+    <Spinner
+        android:id="@+id/districtspinner"
+        android:background="@drawable/spinner"
+        style="@style/ShapeAppearance.MaterialComponents.SmallComponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <FrameLayout
+        android:id="@+id/bookingarea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp" />
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/demnay/app/src/main/res/drawable/backicon.xml" value="0.3828125" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/booking_bg.xml" value="0.3828125" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/booking_sure_bg.xml" value="0.3828125" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/button_sc.xml" value="0.3828125" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/buttonlognout.xml" value="0.3828125" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/changepass.xml" value="0.3828125" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/changepassbg.xml" value="0.3828125" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/header_home.xml" value="0.3769230769230769" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/history.xml" value="0.3828125" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/history_bg.xml" value="0.3828125" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/home.xml" value="0.3769230769230769" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/item_user.xml" value="0.3828125" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/name.xml" value="0.3828125" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/navigartionbottom.xml" value="0.3769230769230769" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/newspape.xml" value="0.3828125" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/password.xml" value="0.3828125" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/search.xml" value="0.3769230769230769" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/searchicon.xml" value="0.3769230769230769" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/searchiconbg.xml" value="0.3769230769230769" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/shapebutton.xml" value="0.3828125" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/shapebutton2.xml" value="0.3828125" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/signupform.xml" value="0.3828125" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/spinner.xml" value="0.3828125" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/user.xml" value="0.3828125" />
+        <entry key="..\:/demnay/app/src/main/res/drawable/username_bg.xml" value="0.3828125" />
+        <entry key="..\:/demnay/app/src/main/res/layout/activity_booking.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/activity_change_pass.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/activity_detail.xml" value="0.33" />
+        <entry key="..\:/demnay/app/src/main/res/layout/activity_detail_pitches.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/activity_histogry.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/activity_history.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/activity_homepage.xml" value="0.33" />
+        <entry key="..\:/demnay/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/activity_newspaper.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/activity_signup.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/activity_user.xml" value="0.33" />
+        <entry key="..\:/demnay/app/src/main/res/layout/asdc.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/booking_sure_layout.xml" value="0.33" />
+        <entry key="..\:/demnay/app/src/main/res/layout/chang_pass_layout.xml" value="0.33" />
+        <entry key="..\:/demnay/app/src/main/res/layout/fragment_empty.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/fragment_histogry.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/fragment_history.xml" value="0.35260416666666666" />
+        <entry key="..\:/demnay/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/fragment_my_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/fragment_phanrang.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/fragment_pitches.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/fragment_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/fragment_q1.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/login.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/layout/my_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/demnay/app/src/main/res/menu/bottom_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

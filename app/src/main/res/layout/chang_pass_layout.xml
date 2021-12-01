@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/changepassbg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change your password"
+        android:background="@drawable/changepass"
+        android:padding="12dp"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:fontFamily="@font/wendy_one"/>
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/wendy_one"
+            android:text="@string/your_password"
+            android:textSize="16dp"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_password_here"
+            android:textColorHint="@color/black"
+            android:theme="@style/football">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/wendy_one"
+            android:text="@string/new_password"
+            android:textSize="16dp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/newPassword"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_new_password_here"
+            android:textColorHint="@color/black"
+            android:theme="@style/football">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/wendy_one"
+            android:text="@string/enter_your_password"
+            android:textSize="16dp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/conNewPassword"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_new_password_here"
+            android:textColorHint="@color/black"
+            android:theme="@style/football">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="@drawable/buttonlognout"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="85dp"
+            android:text="Confirm"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+</LinearLayout>

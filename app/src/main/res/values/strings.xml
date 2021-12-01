@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Book pitches</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mainslo">Chọn sân bóng của bạn</string>
+    <string name="loginslo1">Hello dude, welcome back</string>
+    <string name="loginslo2">so, come login and we will continue</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="buttonGoSignup">You are newbie ?</string>
+    <string name="buttonGofindaccount">forgot password</string>
+    <string name="buttonEnter">go</string>
+    <string name="fullname">Full name</string>
+    <string name="mail">Email</string>
+    <string name="phone">Phone number</string>
+    <string name="buttonGoLogin">ALREADY HAVE AN ACCOUNT? lOGIN</string>
+    <string name="Repassword">Repassword</string>
+    <string name="newspaper">Newspaper</string>
+    <string name="booking">Booking</string>
+    <string name="home_page">Home Page</string>
+    <string name="pitches">pitches</string>
+    <string name="history">History</string>
+    <string name="user">User</string>
+    <string name="log_out">Log out</string>
+    <string name="hi">Hi</string>
+    <string name="your_name">Your name</string>
+    <string name="budget">Budget</string>
+    <string name="notification">Notification</string>
+    <string name="enter_new_password_here">Enter new password here</string>
+    <string name="enter_your_password_here">Enter your password here</string>
+    <string name="your_password">Your password</string>
+    <string name="new_password">New password</string>
+    <string name="enter_your_password">Enter your password</string>
+    //list q1
+    <string-array name="q1name">
+        <item>Sân Bóng Tao Đàn</item>
+        <item>Sân banh mini quận 1 trong khuôn viên Đại học Y Dược</item>
+        <item>Sân bóng Nhà Văn Hóa Thanh Niên</item>
+        <item>Sân bóng đá Hoàng Phú</item>
+        <item>Hoa Lư – Sân bóng đá quận 1 lớn nhất</item>
+        <item>Câu lạc bộ TDTT Nguyễn Du</item>
+    </string-array>
+    <string-array name="q1locate">
+        <item>1 Huyền Trân Công Chúa, Phường Bến Thành, Quận 1, Tp HCM</item>
+        <item>41 Đường Đinh Tiên Hoàng, Bến Nghé, TP.HCM</item>
+        <item>4A Đường Phạm Ngọc Thạch, Phường Bến Nghé, Quận 1, TP.HCM</item>
+        <item>447B, quận 1, TP Hồ Chí Minh </item>
+        <item>2 Đinh Tiên Hoàng, Đa Kao, Quận 1, Hồ Chí Minh</item>
+        <item>116 Nguyễn Du, Phường Bến Thành, Quận 1, Hồ Chí Minh</item>
+    </string-array>
+    //
+    //list PR
+    <string-array name="prname">
+        <item>Sân bóng Tân Định</item>
+        <item>Sân banh Phương Nam</item>
+        <item>Sân bóng Mương Cát</item>
+        <item>Sân bóng Hoa Sen</item>
+        <item>Sân bóng Hoàn Mỹ</item>
+        <item>Sân bóng Hữu Thành</item>
+    </string-array>
+    <string-array name="prlocate">
+        <item>27 Hai mốt tháng tám, thành phố Phan Rang – Tháp Chàm, tỉnh Ninh Thuận</item>
+        <item>279 Ngô Gia Tự, thành phố Phan Rang – Tháp Chàm, tỉnh Ninh Thuận</item>
+        <item>02 Trần Ca, thành phố Phan Rang – Tháp Chàm, tỉnh Ninh Thuận</item>
+        <item>01 Hoàng Diệu, thành phố Phan Rang – Tháp Chàm, tỉnh Ninh Thuận </item>
+        <item>24-30 Nguyên Trung Trực, thành phố Phan Rang – Tháp Chàm, tỉnh Ninh Thuận</item>
+        <item>219 Hai mốt tháng tám, thành phố Phan Rang – Tháp Chàm, tỉnh Ninh Thuận</item>
+    </string-array>
+</resources>

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ativity.detailActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="345dp"
+        android:src="@drawable/santaodan"
+        android:layout_marginTop="-30dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:text="TextView"
+                android:textSize="15dp"/>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time slot"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+                    //time slot 1
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time slot 1"
+                        android:layout_marginTop="10dp"/>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <Button
+                            android:id="@+id/time1mor"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/buttonlognout"
+                            android:text="6h-7h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/time2mor"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_toRightOf="@+id/time1mor"
+                            android:background="@drawable/buttonlognout"
+                            android:text="7h-8h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintStart_toEndOf="@+id/time1mor"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/time3mor"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_toRightOf="@+id/time2mor"
+                            android:background="@drawable/buttonlognout"
+                            android:text="8h-9h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintStart_toEndOf="@+id/time2mor"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/time4mor"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_toRightOf="@+id/time3mor"
+                            android:background="@drawable/buttonlognout"
+                            android:text="9h-10h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toEndOf="@+id/time3mor"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:layout_marginLeft="10dp"/>
+
+                        <Button
+                            android:id="@+id/time5mor"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_alignBottom="@id/time1mor"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/buttonlognout"
+                            android:text="10h-11h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/time1mor"
+                            app:layout_constraintVertical_bias="0.151" />
+
+                        <Button
+                            android:id="@+id/time6mor"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_alignBottom="@id/time1mor"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_toRightOf="@+id/time5mor"
+                            android:background="@drawable/buttonlognout"
+                            android:text="11h-12h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/time5mor"
+                            app:layout_constraintTop_toBottomOf="@+id/time2mor"
+                            app:layout_constraintVertical_bias="0.0" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    //time slot 2
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time slot 2"
+                        android:layout_marginTop="10dp"/>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <Button
+                            android:id="@+id/time1aft"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/buttonlognout"
+                            android:text="12h-13h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/time2aft"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_toRightOf="@+id/time1aft"
+                            android:background="@drawable/buttonlognout"
+                            android:text="13h-14h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintStart_toEndOf="@+id/time1aft"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/time3aft"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_toRightOf="@+id/time2aft"
+                            android:background="@drawable/buttonlognout"
+                            android:text="14h-15h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintStart_toEndOf="@+id/time2aft"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/time4aft"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_toRightOf="@+id/time3aft"
+                            android:background="@drawable/buttonlognout"
+                            android:text="15h-16h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toEndOf="@+id/time3aft"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:layout_marginLeft="10dp"/>
+
+                        <Button
+                            android:id="@+id/time5aft"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_alignBottom="@id/time1aft"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/buttonlognout"
+                            android:text="16h-17h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/time1aft"
+                            app:layout_constraintVertical_bias="0.151" />
+
+                        <Button
+                            android:id="@+id/time6aft"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_alignBottom="@id/time1aft"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_toRightOf="@+id/time5aft"
+                            android:background="@drawable/buttonlognout"
+                            android:text="17h-18h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/time5aft"
+                            app:layout_constraintTop_toBottomOf="@+id/time2aft"
+                            app:layout_constraintVertical_bias="0.0" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    //time slot 3
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time slot 3"
+                        android:layout_marginTop="10dp"/>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <Button
+                            android:id="@+id/time1eve"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/buttonlognout"
+                            android:text="18h-19h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/time2eve"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_toRightOf="@+id/time1eve"
+                            android:background="@drawable/buttonlognout"
+                            android:text="19h-20h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintStart_toEndOf="@+id/time1eve"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/time3eve"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_toRightOf="@+id/time2eve"
+                            android:background="@drawable/buttonlognout"
+                            android:text="20h-21h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintStart_toEndOf="@+id/time2eve"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/time4eve"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_toRightOf="@+id/time3eve"
+                            android:background="@drawable/buttonlognout"
+                            android:text="21h-22h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toEndOf="@+id/time3eve"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:layout_marginLeft="10dp"/>
+
+                        <Button
+                            android:id="@+id/time5eve"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_alignBottom="@id/time1eve"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/buttonlognout"
+                            android:text="22h-23h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/time1eve"
+                            app:layout_constraintVertical_bias="0.151" />
+
+                        <Button
+                            android:id="@+id/time6eve"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_alignBottom="@id/time1eve"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_toRightOf="@+id/time5eve"
+                            android:background="@drawable/buttonlognout"
+                            android:text="23h-0h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/time5eve"
+                            app:layout_constraintTop_toBottomOf="@+id/time2eve"
+                            app:layout_constraintVertical_bias="0.0" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    //time slot 4
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time slot 4"
+                        android:layout_marginTop="10dp"/>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="40dp">
+
+                        <Button
+                            android:id="@+id/time1nig"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/buttonlognout"
+                            android:text="0h-1h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/time2nig"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_toRightOf="@+id/time1nig"
+                            android:background="@drawable/buttonlognout"
+                            android:text="1h-2h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintStart_toEndOf="@+id/time1nig"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/time3nig"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_toRightOf="@+id/time2nig"
+                            android:background="@drawable/buttonlognout"
+                            android:text="2h-3h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintStart_toEndOf="@+id/time2nig"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/time4nig"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_toRightOf="@+id/time3nig"
+                            android:background="@drawable/buttonlognout"
+                            android:text="3h-4h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toEndOf="@+id/time3nig"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:layout_marginLeft="10dp"/>
+
+                        <Button
+                            android:id="@+id/time5nig"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_alignBottom="@id/time1nig"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/buttonlognout"
+                            android:text="4h-5h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/time1nig"
+                            app:layout_constraintVertical_bias="0.151" />
+
+                        <Button
+                            android:id="@+id/time6nig"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_alignBottom="@id/time1nig"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_toRightOf="@+id/time5nig"
+                            android:background="@drawable/buttonlognout"
+                            android:text="5h-6h"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/time5nig"
+                            app:layout_constraintTop_toBottomOf="@+id/time2nig"
+                            app:layout_constraintVertical_bias="0.0" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+</LinearLayout>

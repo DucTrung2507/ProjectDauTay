@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/booking_sure_bg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You for sure to choose this one"
+        android:padding="12dp"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:fontFamily="@font/wendy_one"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <Button
+            android:id="@+id/confirmBooking_no"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="No"/>
+        <Button
+            android:id="@+id/confirmBooking_yes"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:text="Yes"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</LinearLayout>

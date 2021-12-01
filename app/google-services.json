@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "166952081313",
+    "project_id": "datsan-9947b",
+    "storage_bucket": "datsan-9947b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166952081313:android:91c2476cb77d85a8a35de0",
+        "android_client_info": {
+          "package_name": "com.example.datsan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166952081313-ptiflqmppk7qlad9m87gnp5map6pkqq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_syyJ6F9tMGukmXKw3LNGq8jOGRHVFrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166952081313-ptiflqmppk7qlad9m87gnp5map6pkqq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
